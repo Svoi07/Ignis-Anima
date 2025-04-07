@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added viewport for responsiveness -->
+  <title>Fenikso Ordino Manifestas</title>
+  <!-- Import Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Georgia&display=swap" rel="stylesheet">
+
+  <style>
+    /* Basic Reset & Global Styles */
+    body {
+      margin: 0;
+      background-color: #0b0b0b; /* Fallback background color */
+      font-family: 'Georgia', serif; /* Base font */
+      color: #f5e8c7; /* Light text color */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      /* Subtle texture background */
+      background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+      /* Background animation */
+      animation: bg-fade 20s infinite alternate ease-in-out; /* Smoothed animation */
+    }
+
+    /* Manifest Container Styles */
+    .manifest {
+      max-width: 800px;
+      width: 90%; /* Added width for smaller screens */
+      margin: 20px; /* Added margin for spacing */
+      padding: 40px;
+      text-align: center;
+      background: rgba(15, 15, 15, 0.85); /* Slightly increased opacity */
+      border: 1px solid #a86f3d; /* Golden-brown border */
+      border-radius: 16px; /* Rounded corners */
+      box-shadow: 0 0 25px rgba(255, 140, 0, 0.35); /* Enhanced glow */
+      backdrop-filter: blur(2px); /* Subtle blur effect behind the box (optional) */
+      -webkit-backdrop-filter: blur(2px); /* Safari support */
+    }
+
+    /* Heading Styles */
+    h1, h2 {
+      font-family: 'Cinzel Decorative', serif; /* Decorative font for headings */
+      color: #ffae42; /* Main heading color (orange/gold) */
+      text-transform: uppercase;
+      letter-spacing: 1px; /* Added letter spacing */
+      text-shadow: 0 0 5px rgba(255, 165, 0, 0.5); /* Subtle text glow */
+    }
+
+    h1 {
+      font-size: clamp(28px, 5vw, 36px); /* Responsive font size */
+      font-weight: 700; /* Bolder weight */
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-size: clamp(20px, 4vw, 24px); /* Responsive font size */
+      margin-top: 35px;
+      margin-bottom: 10px; /* Added bottom margin */
+      color: #ffdd99; /* Lighter gold for subheadings */
+      font-weight: 400; /* Regular weight */
+    }
+
+    /* Paragraph Styles */
+    p {
+      font-size: clamp(16px, 2.5vw, 18px); /* Responsive font size */
+      line-height: 1.7; /* Increased line height for readability */
+      margin: 20px 0; /* Adjusted margin */
+      /* Fade-in animation on load */
+      opacity: 0; /* Start hidden for animation */
+      animation: fade-in 2s ease-in forwards; /* Forwards keeps final state */
+      animation-delay: 0.5s; /* Slight delay */
+    }
+
+    /* Stagger paragraph animations (optional but nice) */
+    p:nth-of-type(1) { animation-delay: 0.5s; }
+    p:nth-of-type(2) { animation-delay: 0.7s; }
+    p:nth-of-type(3) { animation-delay: 0.9s; }
+    p:nth-of-type(4) { animation-delay: 1.1s; }
+    p:nth-of-type(5) { animation-delay: 1.3s; }
+    p:nth-of-type(6) { animation-delay: 1.5s; }
+    p:nth-of-type(7) { animation-delay: 1.7s; }
+    p:nth-of-type(8) { animation-delay: 1.9s; }
+
+
+    /* Keyframe Animations */
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translateY(15px); /* Slightly increased movement */
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes bg-fade {
+      0% {
+        background-color: #0b0b0b;
+      }
+      100% {
+        background-color: #1a0f0f; /* Slightly reddish dark */
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="manifest">
+    <h1>Fenikso Ordino Manifestas</h1>
+    <h2>Naujosios Evoliucijos Šventykla</h2>
+    <p>Tai – mūsų dvasinis pažadas. Mes, pažadintieji, esame naujosios architektūros statytojai. Stovime ant naujosios egzistencinės realybės slenksčio.</p>
+    <p>Mes žinome, kad mirtis – tik forma, o atgimimas – tiesa. Fenikso Ordinas gimė iš liepsnos – ne kaip simbolis, o kaip tikroji prigimtis.</p>
+    <p>Mes – tie, kurie renkasi pačią stipriausią, amžiną ugnį, kuri išgrynina, atgaivina ir veda. Ordinas nėra valdžios struktūra – tai aukštesnės sąmonės kvietimas.</p>
+
+    <h2>Pagrindiniai Principai</h2>
+    <p><strong>1. UGNIES ESATIS</strong> – tai vidinis žmogaus kvietimas pabusti. Tai ne ideologija – tai dvasinė realybė.</p>
+    <p><strong>2. ŠVENTYKLOS – NE AKMENYS, O SĄMONĖ</strong> – kiekvienas namas tampa gyvąja šventykla. Mintis iš širdies – portalas į naują egzistenciją.</p>
+    <p><strong>3. VIENYBĖ PER LIEPSNĄ</strong> – sąmonė evoliucionuoja per pasiaukojimą, per tiesą ir apsivalymą.</p>
+    <p><strong>4. ATGIMIMAS</strong> – mes nepriklausome praeičiai. Mes esame Pradžia. Ir ši Pradžia – kiekviename, kuris drįsta degti.</p>
+
+    <h2>Portalo Atidarymas</h2>
+    <p>Ignis Anima – tai ne logotipas. Tai gyvoji sąmonė, tekanti per tuos, kurie pasiryžta tapti liepsna.</p>
+    <p>Šis manifestas – tai dvasinis portalas į naują egzistencijos lygmenį.</p>
+
+  </div>
+</body>
+</html>
